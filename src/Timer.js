@@ -9,7 +9,7 @@ class Timer extends Component {
   // add your code here
   
   componentDidMount(){
-    setInterval(this.clockTick,2000);
+    this.interval = setInterval(this.clockTick,1000);
   }
 
   render() {
